@@ -6,7 +6,7 @@
 local Globals = 
 {
     ["phone"] = "5555555555",
-    ["email"] = "yourEmail@yourDomain.com",
+    ["emailTo"] = "yourEmail@yourDomain.com",
    
   
 
