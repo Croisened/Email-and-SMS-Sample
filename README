@@ -35,13 +35,11 @@ user's current GPS long and lat in the body of the message.
 "Send Email (With Attachment)"
 
 Demonstrates opening the email client, populating all properties programatically and attaching 
-an image from the system.DocumentsDirectory
+an image from the system.ResourceDirectory
 
-****UPDATE THIS FEATURE IN THE SAMPLE WAS WORKING 12-22 using build 714, but no longer attaches 
-the image beginning on 12-23.  I'm guessing this has to do with the "type" property of the attachment
-settings.  The attachment shows up on the email at the time it is created, but once you hit send
-it is not there on the receiving end
-
+****UPDATE THIS FEATURE IS WORKING GREAT ON ANDROID, BUT WHEN I RUN THIS ON IPAD2 THE IMAGE SHOWS UP
+IN THE MESSAGE WHEN IT IS CONSTRUCTED, BUT SEEMS IT GETS CORRUPTED ON THE RECEPIENT END - THE FILE IS
+THE RIGHT SIZE BUT IT IS JUST A BLANK IMAGE - looking into this...
 
 
 "Send Text (BLANK)"
