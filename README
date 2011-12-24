@@ -1,0 +1,67 @@
+SMS and Email Sample 
+
+Created by:  Nathanial Ryan  - Fully Croisened
+
+This is a sample project to demonstrate various ways to send email and text from within your
+Corona app.
+
+Project Requireiments:
+   Corona SDK Build 714+
+   
+   MUST RUN ON DEVICE, THIS SAMPLE WILL NOT WORK IN THE SIM
+   
+   Must have "android.permission.ACCESS_FINE_LOCATION" in your build.settings files as we are going
+   to make use of the GPS in this sample
+
+   You need to update the "phone" and "emailTo" properties to something you can test with in the "globals.lua"
+   
+   I'm making using of my base project template for this sample, hence it is wired up with Director 1.4
+
+
+
+The samples...
+
+"Send Email (BLANK)"
+
+Shows the very simplest way to open the email client - users must enter everything themselves
+
+
+"Send Email (My Location)"
+
+Demonstrates opening the email client, populating properties programatically and embedding the 
+user's current GPS long and lat in the body of the message.
+
+
+"Send Email (With Attachment)"
+
+Demonstrates opening the email client, populating all properties programatically and attaching 
+an image from the system.DocumentsDirectory
+
+****UPDATE THIS FEATURE IN THE SAMPLE WAS WORKING 12-22 using build 714, but no longer attaches 
+the image beginning on 12-23.  I'm guessing this has to do with the "type" property of the attachment
+settings.  The attachment shows up on the email at the time it is created, but once you hit send
+it is not there on the receiving end
+
+
+
+"Send Text (BLANK)"
+
+Shows the simplest way to open the text client - users must enter everything themselves
+
+
+"Send Text (MY Location)"
+
+Demonstrates opening the text client, populating the phone number and body programatically, and again
+we are sending the lat and long of the user's current location over to a recepient.
+
+
+
+--Croisened
+
+
+
+
+
+
+
+
