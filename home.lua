@@ -136,7 +136,7 @@ new = function ()
 	                   {to=getGlobal("emailTo"), 
 	                    cc=nil, 
 	                    bcc=nil, 
-	                    attachment={baseDir=system.DocumentsDirectory, filename="bg.png", ["type"]="image" },
+	                    attachment={baseDir=system.ResourceDirectory, filename="bg.png", ["type"]="image" },
 	                    body="How cool is this?",
 	                    isBodyHtml=false,
 	                    subject="Email With Attachment"})
